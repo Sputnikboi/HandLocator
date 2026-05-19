@@ -11,10 +11,10 @@
 | Item | Qty | Est. Cost | Notes |
 |---|---|---|---|
 | Feetech STS3032 servo | 10 | ~$220 | 2 per finger (curl + spread). Awaiting Alibaba quote. |
-| Feetech servo driver board (e.g. Waveshare Bus Servo Adapter) | 1 | ~$10 | USB-to-TTL half-duplex for the STS bus |
-| 6V 5A+ DC power supply | 1 | ~$15 | STS3032 runs at 6V, 10 servos under load need headroom |
-| USB cable (USB-A/C to board) | 1 | ~$5 | Connects driver board to PC |
-| **Subtotal** | | **~$250** | |
+| Feetech FE-URT-1 debug board | 1 | ~$8 | USB-to-TTL signal converter only (servo power is separate) |
+| 6V 5A+ DC power supply | 1 | ~$15 | Powers servo daisy chain directly. STS3032 runs at 6V. |
+| USB cable (Mini USB to PC) | 1 | ~$5 | Connects URT-1 to PC (shows up as serial port) |
+| **Subtotal** | | **~$248** | |
 
 ### Mechanical / 3D Printing
 | Item | Qty | Est. Cost | Notes |
