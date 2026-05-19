@@ -1,0 +1,25 @@
+# Build
+build/
+
+# Models (large binary files)
+models/*.onnx
+models/*.task
+models/*.tflite
+*.pt
+
+# Training runs
+runs/
+
+# Datasets
+datasets/
+
+# Python venv
+.model_venv/
+
+# ONNX Runtime (local install)
+onnxruntime/
+
+# OS
+.DS_Store
+*.swp
+*~
