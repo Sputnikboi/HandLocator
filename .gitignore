@@ -1,8 +1,9 @@
 # Build
 build/
 
-# Models (large binary files)
-models/*.onnx
+# Models (keep only active .onnx, exclude others)
+models/*_backup.onnx
+models/palm_detection*.onnx
 models/*.task
 models/*.tflite
 *.pt
